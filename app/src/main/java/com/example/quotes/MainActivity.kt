@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         setQuote(mainViewModel.nextQuote())
     }
     fun onPrevious(view: View) {
-        setQuote(mainViewModel.previousQuotes())
+        setQuote(mainViewModel.previousQuote())
     }
     fun onShare(view: View) {
         val appIntent = Intent(Intent.ACTION_SEND)
